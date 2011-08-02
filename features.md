@@ -66,7 +66,7 @@ integrates GHCi and its debugging abilities to make your life easier.</td>
 <table width="800px">
 <tr>
 <td valign="center" width="100%">EclipseFP can run your executables in profile mode and later show a graph of the memory usage. In this way
-you don't need to run `hp2ps` and can manipulate the graph at will.</td>
+you don't need to run ``hp2ps`` and can manipulate the graph at will.</td>
 <td><img src="images/profile.png" /></td>
 </tr>
 </table>
