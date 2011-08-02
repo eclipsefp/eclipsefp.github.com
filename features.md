@@ -48,7 +48,7 @@ integrates GHCi and its debugging abilities to make your life easier.</td>
 <table width="800px">
 <tr>
 <td valign="center" width="100%">EclipseFP can run your executables in profile mode and later show a graph of the memory usage. In this way
-you don't need to run <pre>hp2ps</pre> and can manipulate the graph at will.</td>
+you don't need to run `hp2ps` and can manipulate the graph at will.</td>
 <td><img src="images/pofile.png" /></td>
 </tr>
 </table>
@@ -57,11 +57,11 @@ you don't need to run <pre>hp2ps</pre> and can manipulate the graph at will.</td
 <tr>
 <td><img src="images/hoogle.png" /></td>
 <td valign="center" width="100%">The Haskell Browser allows your to navigate your entire collection of packages and modules. Get access to all
-the documentation of these modules withing the IDE. Apart from that, EclipseFP integrates the search abilities of Hoogle.</td>
+the documentation of these modules withing the IDE. Apart from that, EclipseFP integrates the search abilities of Hoogle.
+<br /><br />
+<img src="images/browser.png" /></td>
 </tr>
 </table>
-
-<center><img src="images/browser.png" /></center>
 
 <table width="800px">
 <tr>
