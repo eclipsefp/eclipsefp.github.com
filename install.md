@@ -26,4 +26,5 @@ If are already proficient with Eclipse plug-ins installation, all you need to kn
 ## Getting Eclipse up and running
 
 <a name="extra">
+
 ## Extra configuration steps
