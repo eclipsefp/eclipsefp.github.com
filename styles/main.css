@@ -7,6 +7,18 @@ body {
     margin: 0 auto;
     width: 800px;
 }
+.toc td {
+    width: 130px;
+    text-align: center;
+}
+.toc td hover {
+    background: #49637C;
+    color: #000000;
+}
+.toc td a {
+    text-decoration: none;
+    color: #49637C;
+}
 h1 {
     font-size: 2em;
     color: #49637C;
