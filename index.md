@@ -1,7 +1,6 @@
 ---
 layout: web
 title: EclipseFP
-title_show: EclipseFP <span class="description">The Haskell plug-in for Eclipse</span>
 ---
 
 <br />

@@ -1,10 +1,9 @@
 ---
 layout: web
 title: EclipseFP > Features
-title_show: Features
 ---
 
-<br />
+## Features
 
 <table width="800px">
 <tr>
