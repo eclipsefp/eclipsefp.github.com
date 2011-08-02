@@ -1,0 +1,55 @@
+body {
+    margin-top: 1.0em;
+    background-color: #fff;
+    font-family: "helvetica";
+}
+#container {
+    margin: 0 auto;
+    width: 800px;
+}
+h1 {
+    font-size: 2.5em;
+    color: #49637C;
+    margin-bottom: 3px;
+}
+h1 a {
+    text-decoration: none;
+}
+h2 {
+    font-size: 1.5em;
+    color: #49637C;
+}
+h3 {
+    font-size: 1.0em;
+    color: #49637C;
+}
+a {
+    color: #49637C;
+}
+.description {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-style: italic;
+}
+.download {
+    float: right;
+}
+pre {
+    background: #F8F8F8; /* The same as the GitHub background color since I'm using their syntax.css */
+    padding: 15px;
+}
+hr {
+    border: 0;
+    width: 80%;
+    border-bottom: 1px solid #aaa;
+}
+img {
+    border: 0px;
+}
+.screenshotframe {
+    text-align: center; /* The screenshot and it's border should be in the center of the page */
+}
+.screenshot {
+    border: 10px solid #F8F8F8; /* Soft grey border */
+}
