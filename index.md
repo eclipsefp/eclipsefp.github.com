@@ -12,7 +12,6 @@ title_show: EclipseFP
 <td><img src="images/name.png" /></td>
 </tr>
 </table>
-<br />
 
 <table width="800px">
 <tr>
