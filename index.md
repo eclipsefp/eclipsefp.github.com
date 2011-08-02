@@ -4,4 +4,4 @@ title: EclipseFP
 title_show: EclipseFP
 ---
 
-Welcome to EclipseFP!
+<div class="description">The Haskell plug-in for Eclipse</div>
