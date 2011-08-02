@@ -3,6 +3,7 @@ body {
     background-color: #fff;
     font-family: "helvetica";
     font-size: 0.9em;
+    text-align: justify;
 }
 #container {
     margin: 0 auto;
