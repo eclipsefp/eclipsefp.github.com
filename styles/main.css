@@ -8,8 +8,8 @@ body {
     width: 800px;
 }
 .toc :hover {
-    background: #49637C;
-    color: #000000;
+    background-color: #49637C;
+    color: #FFFFFF;
 }
 .toc a {
     text-decoration: none;
