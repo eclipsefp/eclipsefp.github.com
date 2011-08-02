@@ -17,6 +17,10 @@ body {
     text-decoration: none;
     color: #49637C;
 }
+.selected {
+    font-size: 120%;
+    font-weight: bold;
+}
 h1 {
     font-size: 2em;
     color: #49637C;
