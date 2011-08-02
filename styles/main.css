@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     width: 800px;
 }
-.toc hover {
+.toc :hover {
     background: #49637C;
     color: #000000;
 }
