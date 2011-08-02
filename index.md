@@ -15,7 +15,8 @@ title_show: EclipseFP
 
 <table width="800px">
 <tr>
-<td valign="center" width="100%" margin="7px;">
+<td><img src="images/all.png" /></td>
+<td valign="center" width="100%" margin="7px">
 EclipseFP brings you the power of Eclipse to your daily Haskell programming. The features of EclipseFP include:
 <ul>
 <li>Graphical debugging of modules,</li>
@@ -26,7 +27,6 @@ EclipseFP brings you the power of Eclipse to your daily Haskell programming. The
 </ul>
 If you want to try EclipseFP follow the <a href="install.html">installation instructions</a>.
 </td>
-<td><img src="images/all.png" /></td>
 </tr>
 </table>
 <br />
