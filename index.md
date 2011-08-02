@@ -15,7 +15,7 @@ title_show: EclipseFP
 
 <table width="800px">
 <tr>
-<td valign="center" width="100%" style="margin-right: 7px;">
+<td valign="center" width="100%" margin="7px;">
 EclipseFP brings you the power of Eclipse to your daily Haskell programming. The features of EclipseFP include:
 <ul>
 <li>Graphical debugging of modules,</li>
