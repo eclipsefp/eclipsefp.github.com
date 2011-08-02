@@ -1,8 +1,7 @@
 ---
 layout: web
 title: EclipseFP
+title_show: EclipseFP
 ---
 
-# EclipseFP
-
-This is an example.
+Welcome to EclipseFP!
