@@ -1,17 +1,10 @@
 ---
 layout: web
 title: EclipseFP
-title_show: EclipseFP
+title_show: EclipseFP <div class="description">The Haskell plug-in for Eclipse</div>
 ---
 
-<table width="800px">
-<tr>
-<td valign="center" align="right" width="100%">
-<div class="description">The Haskell plug-in for Eclipse</div>
-</td>
-<td><img src="images/name.png" /></td>
-</tr>
-</table>
+<br />
 
 <table width="800px">
 <tr>
