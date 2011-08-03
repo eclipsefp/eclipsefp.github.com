@@ -76,7 +76,7 @@ you don't need to run ``hp2ps`` and can manipulate the graph at will.</td>
 <tr>
 <td><img src="images/hoogle.png" /></td>
 <td valign="center" width="100%">The Haskell Browser allows your to navigate your entire collection of packages and modules. Get access to all
-the documentation of these modules withing the IDE. Apart from that, EclipseFP integrates the search abilities of Hoogle.
+the documentation of these modules withing the IDE. Apart from that, EclipseFP integrates the search abilities of Hoogle.</td>
 </tr>
 </table>
 <br />
