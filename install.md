@@ -35,12 +35,12 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 <li>In the <i>Available software</i> window that will appear, click the <b>Add...</b> button.</li>
 <li>You will be asked about the details of the update site you want to add. An <i>update site</i> is just a place on the internet where your Eclipse installation can find new plug-ins to install. If you use Linux, the concept is very similar to a repository. The name is not important, but the URL must point to <code>http://eclipsefp.sf.net/updates</code>.
 <br />
-<center><img src="images/update-site.png" /></center>
+<center><img src="images/update-site.png" style="margin: 10px;" /></center>
 </li>
 <li>The <i>Available software</i> window will show the plug-ins in the EclipseFP repository. Check <b>FP: Haskell support for Eclipse</b> and click <b>Next</b>.</li>
 <li>After clicking <b>Next</b> a few more times (for accepting the licenses), the plug-in will be downloaded and installed.
 <br />
-<center><img src="images/install.png" /></center>
+<center><img src="images/install.png" style="margin: 10px;" /></center>
 </li>
 <li>You will be asked for an Eclipse restart. After doing it, you can start using EclipseFP by going to <b>Window &gt; Open perspective &gt; Other...</b> and selecting <i>Haskell</i>.</li>
 <li>Now, follow the <a href="#extra">extra configuration steps</a></li>
