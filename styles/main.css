@@ -23,10 +23,12 @@ body {
     margin: 0;
     border-bottom: 1px solid #aaa;
 }
+.toc {
+    padding: 0px;
+}
 .toc :hover {
     background-color: #49637C;
     color: #FFFFFF;
-    padding: 0px;
 }
 .toc a {
     text-decoration: none;
