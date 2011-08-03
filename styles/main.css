@@ -11,10 +11,12 @@ body {
     width: 800px;
 }
 #container table {
+    margin: 0px;
+    padding: 0px;
     width: 800px;
 }
 #container table tr td {
-    padding: 1.5em;
+    padding: 1.2em;
 }
 #container hr {
     width: 780px;
@@ -24,6 +26,7 @@ body {
 .toc :hover {
     background-color: #49637C;
     color: #FFFFFF;
+    padding: 0px;
 }
 .toc a {
     text-decoration: none;
