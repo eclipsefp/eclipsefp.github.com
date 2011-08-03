@@ -1,6 +1,6 @@
 ---
 layout: web
-title: EclipseFP > Contact
+title: EclipseFP > Development
 ---
 
 <!-- The list of elements -->
@@ -11,7 +11,7 @@ title: EclipseFP > Contact
     <td width="160px" align="center" class="toc"><a href="features.html">Features</a></td>
     <td width="160px" align="center" class="toc"><a href="install.html">Installation</a></td>
     <td width="160px" align="center" class="toc"><a href="faq.html">FAQ</a></td>
-    <td width="160px" align="center" class="toc selected"><a href="contact.html">Contact</a></td>
+    <td width="160px" align="center" class="toc selected"><a href="dev.html">Development</a></td>
   </tr>
 </table>
 </center>

@@ -11,7 +11,7 @@ title: EclipseFP
     <td width="160px" align="center" class="toc"><a href="features.html">Features</a></td>
     <td width="160px" align="center" class="toc"><a href="install.html">Installation</a></td>
     <td width="160px" align="center" class="toc"><a href="faq.html">FAQ</a></td>
-    <td width="160px" align="center" class="toc"><a href="contact.html">Contact</a></td>
+    <td width="160px" align="center" class="toc"><a href="dev.html">Development</a></td>
   </tr>
 </table>
 </center>
