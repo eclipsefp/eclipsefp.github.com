@@ -24,7 +24,7 @@ body {
     border-bottom: 1px solid #aaa;
 }
 .toc {
-    padding: 0px;
+    padding: 0px !important;
 }
 .toc :hover {
     background-color: #49637C;
