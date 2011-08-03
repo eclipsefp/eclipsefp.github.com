@@ -47,7 +47,7 @@ cabal install<br />
 </code>
 </li>
 <li>Get the EclipseFP source: <code>git clone git://github.com/JPMoresmau/eclipsefp.git</code></li>
-<li>Import all Eclipse projects from these repositories into Eclipse. There are more than 20, so the <a href="http://eclipse-tools.sourceforge.net/projecttransfer/">Multi Project Import/Export</a> plugin might come in handy.</li>
+<li>Import all Eclipse projects from these repositories into Eclipse.</li>
 <li>Build all projects or set your workspace to automatically build all projects for you</li>
 <li>Hit <b>Run &gt; Run Configurations</b>. Add a new launch <i>Eclipse Application</i> launch configuration. The default settings for this launch configuration should work, so just click <b>Run</b>.</li>
 <li>In the new Eclipse window that (hopefully) pops up, set the location of the Scion server via <b>Window &gt; Preferences &gt; Haskell &gt; Scion</b>. If you installed it in a fairly standard location, the <i>Autodetect</i> button should do the trick; otherwise, just <i>Browse</i>.</li>
