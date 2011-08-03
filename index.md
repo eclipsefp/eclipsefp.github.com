@@ -5,7 +5,7 @@ title: EclipseFP
 
 <!-- The list of elements -->
 <center>
-<table style="width: 800px:">
+<table>
   <tr>
     <td width="160px" align="center" class="toc selected"><a href="index.html">Home</a></td>
     <td width="160px" align="center" class="toc"><a href="features.html">Features</a></td>
@@ -15,11 +15,11 @@ title: EclipseFP
   </tr>
 </table>
 </center>
-<hr style="width: 780px; margin: 0;" />
+<hr />
 <br />
 <!-- Until here the list -->
 
-<table width="800px">
+<table>
 <tr>
 <td valign="center" width="230px">
 EclipseFP brings you the power of Eclipse to your daily Haskell programming. The features of EclipseFP include:

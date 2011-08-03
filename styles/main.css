@@ -3,11 +3,23 @@ body {
     background-color: #fff;
     font-family: "helvetica";
     font-size: 0.9em;
-    text-align: justify;
+    text-align: left;
+    line-height: 125%;
 }
 #container {
     margin: 0 auto;
     width: 800px;
+}
+#container table {
+    width: 800px;
+}
+#container table tr td {
+    padding: 1.5em;
+}
+#container hr {
+    width: 780px;
+    margin: 0;
+    border-bottom: 1px solid #aaa;
 }
 .toc :hover {
     background-color: #49637C;
@@ -52,11 +64,6 @@ a {
 pre {
     background: #F8F8F8; /* The same as the GitHub background color since I'm using their syntax.css */
     padding: 15px;
-}
-hr {
-    border: 0;
-    width: 80%;
-    border-bottom: 1px solid #aaa;
 }
 img {
     border: 0px;
