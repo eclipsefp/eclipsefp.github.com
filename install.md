@@ -46,8 +46,9 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 <li>Now, follow the <a href="#extra">extra configuration steps</a></li>
 </ul>
 
-<a name="extra" />
+<a name="extra">
 ## Extra configuration steps
+</a>
 
 <p>If you have GHC installed and in your path (for example, by installing the <a href="http://hackage.haskell.org/platform/">Haskell Platform</a> or the corresponding package in your Linux distribution), the first time you start EclipseFP you will receive messages like <i>Building Scion server</i>. This means that EclipseFP is compiling and installing for you some Haskell modules that it needs to start.</p>
 
