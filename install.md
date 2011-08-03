@@ -27,7 +27,7 @@ If are already proficient with Eclipse plug-ins installation, all you need to kn
 
 If it's the first time that you use Eclipse or install plug-ins, follow this set of instructions:
 <ul>
-<li>Go to the <a href="http://eclipse.org/downloads/">Eclipse download page</a> and get any of the Eclipse bundles. With each of them you will get a different initial set of language support, but EclipseFP is compatible with any of them.</li>
+<li>Go to the <a href="http://eclipse.org/downloads/">Eclipse download page</a> and get any of the Eclipse bundles. With each of them you will get a different initial set of language support, but EclipseFP is compatible with any of them. I recommend you reading some <a href="http://www.eclipse.org/resources/?sort=date&category=Tutorial">Eclipse tutorial</a> and learning about other plug-ins such as <a href="http://eclipse.org/egit/">EGit</a> and <a href="http://www.eclipse.org/mylyn/">Mylyn</a>.</li>
 <li>Uncompress the archive you just downloaded. A <code>eclipse</code> folder will be created.</li>
 <li>Inside this folder, you will find an executable called <code>eclipse</code>. Double-click it to start the Eclipse environment (yes, "installing Eclipse" means uncompressing it somewhere, even on a portable drive).</li>
 <li>The first time you execute Eclipse, you will be asked about a workspace. A <i>workspace</i> is just the folder where your preferences and configurations are stored (you can have different sets of preferences using different workspaces), and where your projects will be created by default. For trying, you can just use the default choice (usually <code>&lt;your user folder&gt;/workspace</code>).</li>
@@ -48,3 +48,19 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 
 <a name="extra" />
 ## Extra configuration steps
+<p>If you have GHC installed and in your path (for example, by installing the <a href="http://hackage.haskell.org/platform/">Haskell Platform</a> or the corresponding package in your Linux distribution), the first time you start EclipseFP you will receive messages like <i>Building Scion server</i>. This means that EclipseFP is compiling and installing for you some Haskell modules that it needs to start.</p>
+
+<p>After that, other message will appear, telling you that EclipseFP is <i>Rebuilding the package database</i>. That operation will be done every time you start EclipseFP. This rebuilding gathers information about changes in your set of installed packages and downloads the corresponding documentation from the internet (or if no internet is present, tries to build it locally). Of course, the first time this is done a lot of information must be downloaded and process, so it will take its time.</p>
+
+<p>When no message telling about jobs is on your screen, you can start playing with your new shiny EclipseFP :) If more some reason you get an error, check the <a href="faq.html">FAQ</a> or ask in the <a href="dev.html">mailing list</a>.</p>
+
+<p>For some of the features to be available you need to install several additional Haskell programs. To be more concrete:
+<ul>
+<li>You need to install <a href="http://www.haskell.org/hoogle/">Hoogle</a>, to search functions or types in your installed packages. To get it, run <code>cabal install hoogle</code> in a console. The next time EclipseFP starts, it will detect and configure it for use.</li>
+<li>If you want <a href="http://community.haskell.org/~ndm/hlint/">HLint</a> to give suggestions for improving your code, install it running 
+<code>cabal install hlint</code>.</li>
+<li>EclipseFP can run unit tests created with <a href="http://batterseapower.github.com/test-framework/">Test-framework</a>. You can install it running
+<code>cabal install test-framework test-framework-quickcheck2 test-framework-hunit</code> (to be able to use QuickCheck and HUnit tests).</li>
+<li>The modules analysis is done using <a href="http://hackage.haskell.org/package/SourceGraph">SourceGraph</a>. Get it executing <code>cabal install SourceGraph</code>.</li>
+</ul>
+</p>
