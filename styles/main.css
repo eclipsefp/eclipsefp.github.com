@@ -13,7 +13,7 @@ body {
 #container table {
     margin: 0px;
     padding: 0px;
-    width: 780px;
+    width: 800px;
 }
 #container table tr td {
     padding: 1.0em;
@@ -24,7 +24,6 @@ body {
     border-bottom: 1px solid #aaa;
 }
 #tableofcontents {
-    width: 800px !important;
     margin-top: 5px;
 }
 .toc {
