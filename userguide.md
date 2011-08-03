@@ -5,7 +5,7 @@ title: EclipseFP > User Guide
 
 <!-- The list of elements -->
 <center>
-<table style="width: 800px:">
+<table id="tableofcontents">
   <tr>
     <td width="160px" align="center" class="toc"><a href="index.html">Home</a></td>
     <td width="160px" align="center" class="toc"><a href="features.html">Features</a></td>
@@ -15,6 +15,6 @@ title: EclipseFP > User Guide
   </tr>
 </table>
 </center>
-<hr style="width: 780px; margin: 0;" />
+<hr />
 <br />
 <!-- Until here the list -->

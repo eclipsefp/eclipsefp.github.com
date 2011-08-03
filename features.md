@@ -5,7 +5,7 @@ title: EclipseFP > Features
 
 <!-- The list of elements -->
 <center>
-<table>
+<table id="tableofcontents">
   <tr>
     <td width="160px" align="center" class="toc"><a href="index.html">Home</a></td>
     <td width="160px" align="center" class="toc selected"><a href="features.html">Features</a></td>
