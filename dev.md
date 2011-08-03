@@ -53,6 +53,6 @@ cabal install<br />
 <li>Build all projects or set your workspace to automatically build all projects for you</li>
 <li>Hit <b>Run &gt; Run Configurations</b>. Add a new launch <i>Eclipse Application</i> launch configuration. The default settings for this launch configuration should work, so just click <b>Run</b>.</li>
 <li>In the new Eclipse window that (hopefully) pops up, set the location of the Scion server via <b>Window &gt; Preferences &gt; Haskell &gt; Scion</b>. If you installed it in a fairly standard location, the <i>Autodetect</i> button should do the trick; otherwise, just <i>Browse</i>.</li>
-<li>If something doesn't work, turn on tracing. In the <i>Run Configurations</i> dialog, on the </i>Tracing</i> tab, you can enable tracing options for various plug-ins. These will output to the Console at the bottom of the host Eclipse window. To see the traffic between the Scion client and server, turn on the logs for <code>net.sf.eclipsefp.haskell.scion.client</code>.</li>
+<li>If something doesn't work, turn on tracing. In the <i>Run Configurations</i> dialog, on the <i>Tracing</i> tab, you can enable tracing options for various plug-ins. These will output to the Console at the bottom of the host Eclipse window. To see the traffic between the Scion client and server, turn on the logs for <code>net.sf.eclipsefp.haskell.scion.client</code>.</li>
 </ol>
 
