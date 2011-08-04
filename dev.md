@@ -43,8 +43,11 @@ but the <b>mailing list</b> is hosted in the <a href="http://sourceforge.net/mai
 </li>
 <li>Build and install Scion, (it will install both the library as well as the server program):<br />
 <code>cd scion<br />
+cabal configure -fcabal_1_10<br />
+cabal build<br />
 cabal install<br />
 </code>
+In the <code>configure</code> part, you may need to adjust the <code>cabal_1_x</code> flag to the same version of Cabal available in your system.
 </li>
 <li>Get the EclipseFP source: <code>git clone git://github.com/JPMoresmau/eclipsefp.git</code></li>
 <li>Import all Eclipse projects from these repositories into Eclipse.</li>

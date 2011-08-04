@@ -21,6 +21,22 @@ title: EclipseFP > Features
 
 <table>
 <tr>
+<td><img src="images/syntax.png" /></td>
+<td valign="center" width="100%">EclipseFP is a complete development environment for Haskell. Syntax highlighting for Haskell and Cabal files is included with the plug-in. The editor contains other features, as tooltips showing the type of the functions you use when you put the mouse over them.</td>
+</tr>
+</table>
+<br />
+
+<table>
+<tr>
+<td valign="center" width="100%">Get fast access to all the definitions in your file with the <i>Outline</i> view. Don't spend lots of time looking for your functions, just go and improve them!</td>
+<td><img src="images/outline.png" /></td>
+</tr>
+</table>
+<br />
+
+<table>
+<tr>
 <td><img src="images/warnings.png" /></td>
 <td valign="center" width="100%">Inspect the errors and warnings of your files directly inside the environment. You can also get HLint suggestions for your code. Everything gets checked when you save the file, to save up your time.</td>
 </tr>
