@@ -29,16 +29,32 @@ title: EclipseFP > Features
 
 <table>
 <tr>
-<td valign="center" width="100%">Get fast access to all the definitions in your file with the <i>Outline</i> view. Don't spend lots of time looking for your functions, just go and improve them!</td>
-<td><img src="images/outline.png" /></td>
+<td valign="center" width="100%">Inspect the errors and warnings of your files directly inside the environment. You can also get HLint suggestions for your code. Everything gets checked when you save the file, to save up your time.</td>
+<td><img src="images/warnings.png" /></td>
 </tr>
 </table>
 <br />
 
 <table>
 <tr>
-<td><img src="images/warnings.png" /></td>
-<td valign="center" width="100%">Inspect the errors and warnings of your files directly inside the environment. You can also get HLint suggestions for your code. Everything gets checked when you save the file, to save up your time.</td>
+<td><img src="images/completion.png" /></td>
+<td valign="center" width="100%">Get full autocompletion when typing your Haskell code. All the information from your installed libraries can be shown at will, helping you to find the correct function or type. Just type <i>Ctrl+Space</i> (or <i>Command+Space</i> on Mac) at any moment to show the completion popup.</td>
+</tr>
+</table>
+<br />
+
+<table>
+<tr>
+<td valign="center" width="100%">EclipseFP not only shows the error messages, it also helps you correcting them, showing possible actions to fix the problem. Forgot to add a language pragma to our file? Forgot to add an import or a dependency? Or does your file have redundant imports? These are some of the problems which can be solved automatically.</td>
+<td><img src="images/assistant.png" /></td>
+</tr>
+</table>
+<br />
+
+<table>
+<tr>
+<td><img src="images/outline.png" /></td>
+<td valign="center" width="100%">Get fast access to all the definitions in your file with the <i>Outline</i> view. Don't spend lots of time looking for your functions, just go and improve them!</td>
 </tr>
 </table>
 <br />
@@ -82,7 +98,7 @@ integrates GHCi and its debugging abilities to make your life easier.</td>
 <table>
 <tr>
 <td valign="center" width="100%">EclipseFP can run your executables in profile mode and later show a graph of the memory usage. In this way
-you don't need to run ``hp2ps`` and can manipulate the graph at will.</td>
+you don't need to run <code>hp2ps</code> and can manipulate the graph at will.</td>
 <td><img src="images/profile.png" /></td>
 </tr>
 </table>
@@ -99,9 +115,20 @@ the documentation of these modules withing the IDE. Apart from that, EclipseFP i
 
 <table>
 <tr>
+<td valign="center" width="100%">Haskell programming is not only coding in Haskell. EclipseFP acknowledges this and includes support for the <a href="http://www.haskell.org/alex/">Alex lexer builder</a>, the <a href="http://www.haskell.org/happy/">Happy parser builder</a> and the <a href="http://www.cs.uu.nl/wiki/HUT/AttributeGrammarSystem">UU Attribute Grammar System</a>. This means that files are precompiled automatically into their Haskell counterparts, special editors are provided and build errors are shown in the editor.
+<br/>
+Haskell web frameworks like <a href="http://snapframework.com/">Snap</a> and <a href="http://www.yesodweb.com/">Yesod</a> are also supported: you can create web projects directly from the IDE and you will get HTML, CSS or JavaScript highlighting in your templates.
+</td>
+<td><img src="images/filetypes.png" /></td>
+</tr>
+</table>
+<br />
+
+<table>
+<tr>
+<td><img src="images/git.png" /></td>
 <td valign="center" width="100%">EclipseFP is an Eclipse plug-in, which means that using it you also get access to all the tools for the
 Eclipse platform in the same environment: source control providers (such as EGit or Subclipse), task- and bug-oriented interfaces (such as Mylyn)
 and a enormous amount of language support.</td>
-<td></td>
 </tr>
 </table>
