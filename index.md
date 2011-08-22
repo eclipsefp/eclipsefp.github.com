@@ -26,7 +26,7 @@ EclipseFP brings you the power of Eclipse to your daily Haskell programming. The
 <ul>
 <li>Graphical debugging of modules,</li>
 <li>Visual Cabal files editor,</li>
-<li>Integration with GHC and HLint to provide error messages and suggestions,</li>
+<li>Integration with GHC and HLint to provide autocompletion, error messages and suggestions,</li>
 <li>Navigational interfaces for your packages,</li>
 <li>and <a href="features.html">many more</a>!</li>
 </ul>
