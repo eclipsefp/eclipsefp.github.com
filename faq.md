@@ -19,7 +19,7 @@ title: EclipseFP > FAQ
 <br />
 <!-- Until here the list -->
 
-<p><b>Q:</b> <i>Why is EclipseFP so slow to start sometimes?</i></p>
+<p><b>Q:</b> <i>Why is EclipseFP sometimes so slow to start?</i></p>
 <p><b>A:</b> The first time EclipseFP starts, it needs to build some Haskell components and to download package information from the Internet. This may take a long time, depending on your machine. This is a procedure that only needs to be done once. However, each time you start EclipseFP, the plug-in checks if your set of installed packages has changed and if so, it downloads and builds the documentation for them. Depending of how big the change was, this may be a lot of work.</p>
 <p>In any case, once the <i>Rebuilding local database</i> message disappears from the status bar, the startup is complete and the full power of EclipseFP is at your disposal.</p>
 
