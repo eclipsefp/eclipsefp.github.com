@@ -31,7 +31,7 @@ title: EclipseFP > Development
 <ul>
 <li>Scion: <a href="https://github.com/JPMoresmau/scion"><code>https://github.com/JPMoresmau/scion</code></a></li>
 <li>EclipseFP: <a href="https://github.com/JPMoresmau/eclipsefp"><code>https://github.com/JPMoresmau/eclipsefp</code></a></li>
-<li>Scion Browser: <a href="https://github.com/serras/scion-class-browser><code>https://github.com/serras/scion-class-browser</code></a></li>
+<li>Scion Browser: <a href="https://github.com/serras/scion-class-browser"><code>https://github.com/serras/scion-class-browser</code></a></li>
 </ul>
 but the <b>mailing list</b> is hosted in the <a href="http://sourceforge.net/mailarchive/forum.php?forum_name=eclipsefp-develop">old site in SourceForge</a>.
 </p>
