@@ -47,3 +47,10 @@ Then, restart Eclipse to force <code>scion-browser</code> to be rebuilt.
 <p><b>Q:</b> <i>In my installation of EclipseFP some of the features that you announce are not available.</i></p>
 <p><b>A:</b> First of all, check that you have all the <a href="install.html#extra">extra components</a> needed for those features to work.</p>
 <p>If you created your project with an older version of EclipseFP, the support for HLint, Alex, Happy or UUAGC needs to be enabled in the project (for new projects all these features are enabled automatically). For doing so, right-click on your project root, and in the <i>Configure</i> submenu, choose the builder you want to add.</p>
+
+<br />
+
+<p><b>Q:</b> <i>I still have an issue that I can't solve, what do I do?</i></p>
+<p><b>A:</b> Search the <a href="http://sourceforge.net/projects/eclipsefp/forums/forum/371922">SourceForge forum</a>, and if you find nothing, post your question!</p>
+
+
