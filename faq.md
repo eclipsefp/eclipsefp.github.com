@@ -35,7 +35,7 @@ Then, restart Eclipse to force <code>scion-browser</code> to be rebuilt.
 </p>
 <br />
 
-<p><b>Q:</b> I'm on Windows and/or the error is more like <code>Loading package double-conversion-0.2.0.0 ... can't load .so/.DLL for: stdc++ (addDLL: could not load DLL)
+<p><b>Q:</b> <i>I'm on Windows and/or the error is more like <code>Loading package double-conversion-0.2.0.0 ... can't load .so/.DLL for: stdc++ (addDLL: could not load DLL)
 ghc.exe: stdc++: The specified module could not be found.</code>.</i></p>
 <p><b>A:</b> Try the workaround outlined <a href="https://github.com/mailrank/blaze-textual#readme">here</a>:<br />
 <code>cabal install blaze-textual --user -fnative --reinstall</code><br />
