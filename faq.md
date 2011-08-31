@@ -33,7 +33,15 @@ If you are using Mac OS X, the following command will do the trick:
 <p><code>sudo ln -s /usr/lib/libstdc++.6.dylib /usr/lib/libstdc++.dylib</code></p>
 Then, restart Eclipse to force <code>scion-browser</code> to be rebuilt.
 </p>
+<br />
 
+<p><b>Q:</b> I'm on Windows and/or the error is more like <code>Loading package double-conversion-0.2.0.0 ... can't load .so/.DLL for: stdc++ (addDLL: could not load DLL)
+ghc.exe: stdc++: The specified module could not be found.</code>.</i></p>
+<p><b>A:</b> Try the workaround outlined <a href="https://github.com/mailrank/blaze-textual#readme">here</a>:<br />
+<code>cabal install blaze-textual --user -fnative --reinstall</code><br />
+<code>cabal install aeson --user --reinstall</code><br />
+Then, restart Eclipse to force <code>scion-browser</code> to be rebuilt.
+</p>
 <br />
 
 <p><b>Q:</b> <i>In my installation of EclipseFP some of the features that you announce are not available.</i></p>
