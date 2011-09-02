@@ -69,3 +69,10 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 <li>Projects using <a href="http://snapframework.com/">Snap</a> or <a href="http://www.yesodweb.com/">Yesod</a> web frameworks can be created automatically, but only if those packages are installed. To get them, follow the instructions in their official sites.</li>
 </ul>
 </p>
+
+<h3>Extra Eclipse plug-ins</h3>
+
+<p>For some features, you need to install extra Eclipse plug-ins. EclipseFP can run without them, and will warn you if they are needed. Those plug-ins are:
+<li><i>BIRT Charting Engine</i>: needed to show profiling output. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/birt/update-site/3.7</code> as update site.</li>
+<li><i>Web Platform Tools</i>: needed to highlight and provide autocompletion for web-related files. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/webtools/repository/indigo/</code>as update site.</li>
+</p>
