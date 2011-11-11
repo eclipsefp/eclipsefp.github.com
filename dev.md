@@ -19,9 +19,9 @@ title: EclipseFP > Development
 <br />
 <!-- Until here the list -->
 
-<p>EclipseFP is done of two main components:
+<p>EclipseFP is done of three main components:
 <ul>
-<li><b>Scion</b> is a Haskell library and server that wraps the GHC API to provide the functionality needed for IDEs. Scion is mostly due to the work of <a href="https://github.com/nominolo">Thomas Schilling</a>.</li>
+<li><b>BuildWrapper</b> is a Haskell library and executable that wraps the GHC API and the Cabal executable to provide the functionality needed for IDEs.</li>
 <li><b>EclipseFP</b> itself is a set of Eclipse plug-ins programmed mostly in Java. The development was started by Leif Frenzel, with contributions of (in alphabetical order) Andrei de A. Formiga, Thiago Arrais, Scott Michel, JP Moresmau, Alejandro Serrano (during his <a href="http://serras-haskell-gsoc.blogspot.com/">2011 Google Summer of Code</a>), and B. Thomas ten Cate (during his <a href="http://eclipsefp.wordpress.com/">2009 Google Summer of Code</a>). <a href="https://github.com/JPMoresmau">JP Moresmau</a> is the current maintainer.</li>
 <li><b>Scion Browser</b> is a Haskell library that reads Hoogle documentation files for installed packaged and provides a way to navigate them. This component is mostly work of <a href="https://github.com/serras">Alejandro Serrano</a>.</li>
 </ul>
@@ -29,7 +29,7 @@ title: EclipseFP > Development
 
 <p>The <b>code</b> is hosted in <a href="http://github.com">GitHub</a>:
 <ul>
-<li>Scion: <a href="https://github.com/JPMoresmau/scion"><code>https://github.com/JPMoresmau/scion</code></a></li>
+<li>BuildWrapper: <a href="https://github.com/JPMoresmau/buildwrapper"><code>https://github.com/JPMoresmau/buildwrapper</code></a></li>
 <li>EclipseFP: <a href="https://github.com/JPMoresmau/eclipsefp"><code>https://github.com/JPMoresmau/eclipsefp</code></a></li>
 <li>Scion Browser: <a href="https://github.com/serras/scion-class-browser"><code>https://github.com/serras/scion-class-browser</code></a></li>
 </ul>
@@ -42,13 +42,12 @@ but the <b>mailing list</b> is hosted in the <a href="http://sourceforge.net/mai
 <ol>
 <li>Get <a href="http://www.eclipse.org/downloads/">Eclipse</a>, the distribution named <i>Eclipse Classic</i>. Extraction equals installation.</li>
 <li>You need to install the <a href="http://download.eclipse.org/birt/">BIRT Charting Engine</a> to be able to build EclipseFP. The update site is <code>http://download.eclipse.org/birt/update-site/3.7</code> for Eclipse 3.7 (Indigo).</li>
-<li>Get the Scion source: <code>git clone git://github.com/JPMoresmau/scion.git</code><br />
+<li>Get the BuildWrapper source: <code>git clone git://github.com/JPMoresmau/buildwrapper.git</code><br />
 </li>
-<li>Build and install Scion, (it will install both the library as well as the server program):<br />
-<code>cd scion<br />
-cabal install -fcabal_1_10<br />
+<li>Build and install BuildWrapper, (it will install both the library as well as the exectuable program):<br />
+<code>cd buildwrapper<br />
+cabal install<br />
 </code>
-In the <code>configure</code> part, you may need to adjust the <code>cabal_1_x</code> flag to the same version of Cabal available in your system.
 </li>
 <li>Get the EclipseFP source: <code>git clone git://github.com/JPMoresmau/eclipsefp.git</code></li>
 <li>Import all Eclipse projects from these repositories into Eclipse.</li>
