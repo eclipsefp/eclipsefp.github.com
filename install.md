@@ -22,7 +22,7 @@ title: EclipseFP > Installation
 If are already proficient with Eclipse plug-ins installation, all you need to know is that the Java Development Tools are required and the EclipseFP
 update site is located in ``http://eclipsefp.sf.net/updates`` and then follow the <a href="#extra">extra configuration steps</a>. If you don't know what
 "update site" means, don't worry, just follow the steps right below this text.
-The current version of EclipseFP is 2.1.0.
+The current version of EclipseFP is 2.2.0.
 
 ## Getting Eclipse up and running
 
@@ -51,7 +51,7 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 <h2>Extra configuration steps</h2>
 </a>
 
-<p>If you have GHC installed and in your path (for example, by installing the <a href="http://hackage.haskell.org/platform/">Haskell Platform</a> or the corresponding package in your Linux distribution), the first time you start EclipseFP you will receive messages like <i>Building Scion server</i>. This means that EclipseFP is compiling and installing for you some Haskell modules that it needs to start.</p>
+<p>If you have GHC installed and in your path (for example, by installing the <a href="http://hackage.haskell.org/platform/">Haskell Platform</a> or the corresponding package in your Linux distribution), the first time you start EclipseFP you will be prompted to install BuildWrapper and Scion-browser. Just click install to have them downloaded from Hackage and installed.</p>
 
 <p>After that, other message will appear, telling you that EclipseFP is <i>Rebuilding the package database</i>. That operation will be done every time you start EclipseFP. This rebuilding gathers information about changes in your set of installed packages and downloads the corresponding documentation from the internet (or if no internet is present, tries to build it locally). Of course, the first time this is done a lot of information must be downloaded and process, so it will take its time.</p>
 
