@@ -50,6 +50,25 @@ Then, restart Eclipse to force <code>scion-browser</code> to be rebuilt.
 
 <br />
 
+<p><b>Q:</b> <i>Scion-browser doesn't install on Fedora 16: undefined reference to symbol 'tparm'</i></p>
+<p><b>A:</b>The full message is something like:<br/>
+<code>
+Linking dist/build/scion-browser/scion-browser ...<br/>
+/usr/bin/ld: /home/breitko/.cabal/lib/terminfo-0.3.2.3/ghc-7.0.4/libHSterminfo-0.3.2.3.a(Base.o): undefined reference to symbol 'tparm'<br/>
+/usr/bin/ld: note: 'tparm' is defined in DSO /lib64/libtinfo.so.5 so try adding it to the linker command line<br/>
+/lib64/libtinfo.so.5: could not read symbols: Invalid operation<br/>
+collect2: ld returned 1 exit status<br/>
+cabal: Error: some packages failed to install:<br/>
+</code>
+<br/>
+An explanation can be found <a href="http://lists.fedoraproject.org/pipermail/devel/2010-March/133601.html"/>here</a>. 
+<br/>A work around:<br/>
+Try adding this to the executable section of scion-browser.cabal:
+<code>Extra-libraries: tinfo</code>
+</p>
+
+<br />
+
 <p><b>Q:</b> <i>I still have an issue that I can't solve, what do I do?</i></p>
 <p><b>A:</b> Search the <a href="http://sourceforge.net/projects/eclipsefp/forums/forum/371922">SourceForge forum</a>, and if you find nothing, post your question!</p>
 
