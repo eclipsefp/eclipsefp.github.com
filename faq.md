@@ -60,7 +60,7 @@ Then, restart Eclipse to force <code>scion-browser</code> to be rebuilt.
 <code>cabal: Error: some packages failed to install:</code><br />
 </p>
 <p>
-An explanation can be found <a href="http://lists.fedoraproject.org/pipermail/devel/2010-March/133601.html"/>here</a>. 
+An explanation can be found <a href="http://lists.fedoraproject.org/pipermail/devel/2010-March/133601.html">here</a>. 
 <br />A work around: try adding this to the executable section of scion-browser.cabal:<br />
 <code>Extra-libraries: tinfo</code>
 </p>
