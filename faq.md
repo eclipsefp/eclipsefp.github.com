@@ -66,8 +66,15 @@ An explanation can be found <a href="http://lists.fedoraproject.org/pipermail/de
 </p>
 
 <br />
+
 <p><b>Q:</b> <i>I get an error about <code>ncurses</code> while compiling <code>scion-browser</code>: something like <code>can't load .so/.DLL for: ncursesw (/usr/lib/libncursesw.so: file too short)</code></i></p>
-<p><b>A:</b> This happens because GHC does not follow some kinds of links between libraries that GCC does. To solve it in my system, I usually run <code>cd /usr/lib && sudo mv libncurses.so libncurses.so.bak && sudo mv libncursesw.so libncursesw.so.bak && sudo ln -s /lib/libncurses.so.5 libncurses.so && sudo ln -s /lib/libncursesw.so.5 libncursesw.so</code> on a terminal.</p>
+<p><b>A:</b> This happens because GHC does not follow some kinds of links between libraries that GCC does. In a Ubuntu system, you can solve it opening a terminal and running:<br />
+<code>cd /usr/lib</code><br />
+<code>sudo mv libncurses.so libncurses.so.bak</code><br />
+<code>sudo mv libncursesw.so libncursesw.so.bak</code><br />
+<code>sudo ln -s /lib/libncurses.so.5 libncurses.so</code><br />
+<code>sudo ln -s /lib/libncursesw.so.5 libncursesw.so</code><br />
+</p>
 
 <br />
 
