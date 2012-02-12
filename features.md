@@ -38,7 +38,7 @@ title: EclipseFP > Features
 <table>
 <tr>
 <td><img src="images/completion.png" /></td>
-<td valign="center" width="100%">Get full autocompletion when typing your Haskell code. All the information from your installed libraries can be shown at will, helping you to find the correct function or type. Just type <i>Ctrl+Space</i> (or <i>Command+Space</i> on Mac) at any moment to show the completion popup.</td>
+<td valign="center" width="100%">Get full autocompletion when typing your Haskell code. All the information from your installed libraries can be shown at will, helping you to find the correct function or type. Just type <i>Ctrl+Space</i> at any moment to show the completion popup (the key combination can be changed in the Eclipse preferences: <i>General -> Keys -> Content Assist</i>).</td>
 </tr>
 </table>
 <br />
