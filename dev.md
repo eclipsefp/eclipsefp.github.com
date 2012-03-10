@@ -29,7 +29,7 @@ title: EclipseFP > Development
 
 <p>The <b>code</b> is hosted in <a href="http://github.com">GitHub</a>:
 <ul>
-<li>BuildWrapper: <a href="https://github.com/JPMoresmau/buildwrapper"><code>https://github.com/JPMoresmau/buildwrapper</code></a></li>
+<li>BuildWrapper: <a href="https://github.com/JPMoresmau/BuildWrapper"><code>https://github.com/JPMoresmau/BuildWrapper</code></a></li>
 <li>EclipseFP: <a href="https://github.com/JPMoresmau/eclipsefp"><code>https://github.com/JPMoresmau/eclipsefp</code></a></li>
 <li>Scion Browser: <a href="https://github.com/serras/scion-class-browser"><code>https://github.com/serras/scion-class-browser</code></a></li>
 </ul>
@@ -42,10 +42,10 @@ but the <b>mailing list</b> is hosted in the <a href="http://sourceforge.net/mai
 <ol>
 <li>Get <a href="http://www.eclipse.org/downloads/">Eclipse</a>, the distribution named <i>Eclipse Classic</i>. Extraction equals installation.</li>
 <li>You need to install the <a href="http://download.eclipse.org/birt/">BIRT Charting Engine</a> to be able to build EclipseFP. The update site is <code>http://download.eclipse.org/birt/update-site/3.7</code> for Eclipse 3.7 (Indigo).</li>
-<li>Get the BuildWrapper source: <code>git clone git://github.com/JPMoresmau/buildwrapper.git</code><br />
+<li>Get the BuildWrapper source: <code>git clone git://github.com/JPMoresmau/BuildWrapper.git</code><br />
 </li>
 <li>Build and install BuildWrapper, (it will install both the library as well as the exectuable program):<br />
-<code>cd buildwrapper<br />
+<code>cd BuildWrapper<br />
 cabal install<br />
 </code>
 </li>
