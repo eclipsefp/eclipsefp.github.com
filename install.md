@@ -28,6 +28,7 @@ The current version of EclipseFP is 2.2.4.
 
 If it's the first time that you use Eclipse or install plug-ins, follow this set of instructions:
 <ul>
+<li>You'll need of course a Java Runtime Environment (JRE), version 6 or above. If you need to download it, go to <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">this page</a>.</li>
 <li>Go to the <a href="http://eclipse.org/downloads/">Eclipse download page</a> and get any of the Eclipse bundles. With each of them you will get a different initial set of language support, but EclipseFP is compatible only with those with Java support (Eclipse for Java developers, Eclipse for Java EE developers or Eclipse Classic). I recommend you reading some <a href="http://www.eclipse.org/resources/?sort=date&category=Tutorial">Eclipse tutorial</a> and learning about other plug-ins such as <a href="http://eclipse.org/egit/">EGit</a> and <a href="http://www.eclipse.org/mylyn/">Mylyn</a>.</li>
 <li>Uncompress the archive you just downloaded. A <code>eclipse</code> folder will be created.</li>
 <li>Inside this folder, you will find an executable called <code>eclipse</code>. Double-click it to start the Eclipse environment (yes, "installing Eclipse" means uncompressing it somewhere, even on a portable drive).</li>
