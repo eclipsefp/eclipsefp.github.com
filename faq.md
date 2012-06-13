@@ -22,8 +22,20 @@ title: EclipseFP > FAQ
 <p><b>Q:</b> <i>Why is EclipseFP sometimes so slow to start?</i></p>
 <p><b>A:</b> The first time EclipseFP starts, it needs to build some Haskell components and to download package information from the Internet. This may take a long time, depending on your machine. This is a procedure that only needs to be done once. However, each time you start EclipseFP, the plug-in checks if your set of installed packages has changed and if so, it downloads and builds the documentation for them. Depending of how big the change was, this may be a lot of work.</p>
 <p>In any case, once the <i>Rebuilding local database</i> message disappears from the status bar, the startup is complete and the full power of EclipseFP is at your disposal.</p>
-
+<p>If you feel this is really slow, you can try to rebuild the database manually to get a feel if there's a problem with Hackage:<br/>
+<code>scion-browser</code>
+<code>{"filepath":"/home/user/workspace/.metadata/.plugins/net.sf.eclipsefp.haskell.browser/scion-browser-0.2-dbs/local.db","command":"load-local-db","rebuild":true}</code>
+This starts the scion-browser console, that accepts commands in JSON format. You should then see the packages downloading from Hackage.</p>
 <br />
+
+<p><b>Q:</b> <i>I've installed BuildWrapper and scion-browser, but nothing works.</i></p>
+<p><b>A:</b> You need to be sure that your PATH is correct. So check in the Preferences that all the paths to GHC, Cabal, BuildWrapper and others are correct.<br/>
+Things to look for:
+<ul>
+<li>On Windows, you haven't installed the Haskell Platform as an Administrator, and your PATH has not been updated correctly. Add %USERPROFILE%\AppData\Roaming\cabal\bin and all the bin folders you can find inside the Haskell Platform folder to your PATH.</li>
+<li>You're on MacOS and the PATH used by GUI applications is not the same as the one you see in your shell. Need help? Click <a href="http://leohacker.wordpress.com/2011/12/05/add-your-path-into-path-for-gui-application-for-macos/">here</a> and <a href="http://serverfault.com/questions/16355/how-to-set-global-path-on-os-x">here</a>.</li>
+</ul>
+<br/>
 
 <p><b>Q:</b> <i>When <code>scion-browser</code> is building, I get an error like <code>Loading package double-conversion-0.2.0.0 ... can't load .so/.DLL for: stdc++ (libstdc++.so: cannot open shared object file: No such file or directory)</code>.</i></p>
 <p><b>A:</b> This is a bug in GHC as pointed <a href="http://hackage.haskell.org/trac/ghc/ticket/5289">here</a>. If you are using a Linux distribution, the recommended way to cicumvent the problem is running on a terminal:
