@@ -45,6 +45,7 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 <center><img src="images/install.png" style="margin: 10px;" /></center>
 </li>
 <li>You will be asked for an Eclipse restart. After doing it, you can start using EclipseFP by going to <b>Window &gt; Open perspective &gt; Other...</b> and selecting <i>Haskell</i>.</li>
+<li>There is some help for EclipseFP inside the Eclipse help system. Press F1, or choose <b>Help &gt; Help Contents</b>. The help is available under the title <b>Haskell Plug-in User Guide</b>.</li>
 <li>Now, follow the <a href="#extra">extra configuration steps</a></li>
 </ul>
 
