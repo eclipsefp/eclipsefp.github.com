@@ -34,7 +34,7 @@ Things to look for:
 <ul>
 <li>On Windows, you haven't installed the Haskell Platform as an Administrator, and your PATH has not been updated correctly. Add %USERPROFILE%\AppData\Roaming\cabal\bin and all the bin folders you can find inside the Haskell Platform folder to your PATH.</li>
 <li>You're on MacOS and the PATH used by GUI applications is not the same as the one you see in your shell. Need help? Click <a href="http://leohacker.wordpress.com/2011/12/05/add-your-path-into-path-for-gui-application-for-macos/">here</a> and <a href="http://serverfault.com/questions/16355/how-to-set-global-path-on-os-x">here</a>.</li>
-</ul>
+</ul></p>
 <br/>
 
 <p><b>Q:</b> <i>When <code>scion-browser</code> is building, I get an error like <code>Loading package double-conversion-0.2.0.0 ... can't load .so/.DLL for: stdc++ (libstdc++.so: cannot open shared object file: No such file or directory)</code>.</i></p>
