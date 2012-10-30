@@ -63,7 +63,7 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 <ul>
 <li>You need to install <a href="http://www.haskell.org/hoogle/">Hoogle</a>, to search functions or types in your installed packages. To get it, run <code>cabal install hoogle</code> in a console. The next time EclipseFP starts, it will detect and configure it for use. On Windows, you may need to install some other binaries for hoogle to work: <a href="http://gnuwin32.sourceforge.net/packages/wget.htm">wget</a>, <a href="http://gnuwin32.sourceforge.net/packages/gzip.htm">gzip</a> and <a href="http://gnuwin32.sourceforge.net/packages/gtar.htm">tar</a>.</li>
 <li>If you want <a href="http://community.haskell.org/~ndm/hlint/">HLint</a> to give suggestions for improving your code, install it running 
-<code>cabal install hlint</code>.</li>
+<code>cabal install hlint</code>. Most HLint suggestions can be automatically applied to your code via Quick Fixes.</li>
 <li>EclipseFP can run unit tests created with <a href="http://batterseapower.github.com/test-framework/">Test-framework</a>. You can install it running
 <code>cabal install test-framework test-framework-quickcheck2 test-framework-hunit</code> (to be able to use QuickCheck and HUnit tests).</li>
 <li>The modules analysis is done using <a href="http://hackage.haskell.org/package/SourceGraph">SourceGraph</a>. Get it executing <code>cabal install SourceGraph</code>. Note that you'll need to have dot installed for the graphs to be generated. You can download dot from <a href="http://graphviz.org/">http://graphviz.org/</a>.</li>
