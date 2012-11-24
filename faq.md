@@ -37,6 +37,25 @@ Things to look for:
 </ul></p>
 <br/>
 
+<p><b>Q:</b> <i>Why do I need BuildWrapper and scion-browser? Why do you ask me to install them on startup?</i></p>
+<p><b>A:</b> EclipseFP requires these executables. They're themselves written in Haskell, which allows us to reuse a lot of great libraries that deal with Haskell in Haskell.<br/>
+We ask you to install them at the start because we do not want to install things behind your back. You'll be prompted to install these executables if they cannot be found, but maybe if your PATH is wrong, you've installed them already and it's only that EclipseFP can't find them.
+Once they're installed, you won't need to worry about them again.
+</p>
+<br/>
+
+<p><b>Q:</b> <i>Do my Haskell projects need to be Cabalized?</i></p>
+<p><b>A:</b> Yes, mostly. EclipseFP will give you syntax highlighting if you open a Haskell file from a non-Haskell project or a project without a Cabal file, but most functionnalities will only work if you have a Cabal file.<br/>
+Think of it this way: an IDE needs metadata about the project. In Eclipse, in a simple Java project, you need to reference the necessary libraries, say where the source folders are, etc. In the Haskell world, this is done via a Cabal file, so EclipseFP more or less requires Cabalized projects.
+</p>
+<br/>
+
+<p><b>Q:</b> <i>In my buildwrapper console, I see errors like: buildwrapper: user error (You need to re-run the 'configure' command. The version of Cabal being used has changed (was Cabal-1.16.0.3, now Cabal-1.14.0).)</i></p>
+<p><b>A:</b> Buildwrapper both uses the cabal executable to run cabal configure and cabal build, and the Cabal library to read the cabal information and performs other operations. So the two need to be in synch, and this message appear if they aren't. Usually rebuilding buildwrapper fixes the issue.<br/>
+This happens for example if you've updated cabal-install and not the Cabal library.
+</p>
+<br/>
+
 <p><b>Q:</b> <i>When <code>scion-browser</code> is building, I get an error like <code>Loading package double-conversion-0.2.0.0 ... can't load .so/.DLL for: stdc++ (libstdc++.so: cannot open shared object file: No such file or directory)</code>.</i></p>
 <p><b>A:</b> This is a bug in GHC as pointed <a href="http://hackage.haskell.org/trac/ghc/ticket/5289">here</a>. If you are using a Linux distribution, the recommended way to cicumvent the problem is running on a terminal:
 <p><code>sudo ln -vs $(gcc --print-file-name=libstdc++.so) /usr/local/lib/<br />
