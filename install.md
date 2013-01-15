@@ -59,12 +59,13 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 
 <p>When no message telling about jobs is on your screen, you can start playing with your new shiny EclipseFP :) If more some reason you get an error, check the <a href="faq.html">FAQ</a> or ask in the <a href="dev.html">mailing list</a>.</p>
 
-<p>For some of the features to be available you need to install several additional Haskell programs. To be more concrete:
+<p>For some of the features to be available you need to install several additional Haskell programs. The instructions below give you the cabal command to run, but you can also install helper executables from inside EclipseFP (<b>Preferences -> Haskell -> Helper Executables</b> or via the <b>Cabal Packages View</b>). To be more concrete:
 <ul>
 <li>You need to install <a href="http://www.haskell.org/hoogle/">Hoogle</a>, to search functions or types in your installed packages. To get it, run <code>cabal install hoogle</code> in a console. The next time EclipseFP starts, it will detect and configure it for use. On Windows, you may need to install some other binaries for hoogle to work: <a href="http://gnuwin32.sourceforge.net/packages/wget.htm">wget</a>, <a href="http://gnuwin32.sourceforge.net/packages/gzip.htm">gzip</a> and <a href="http://gnuwin32.sourceforge.net/packages/gtar.htm">tar</a>.</li>
 <li>If you want <a href="http://community.haskell.org/~ndm/hlint/">HLint</a> to give suggestions for improving your code, install it running 
 <code>cabal install hlint</code>. Most HLint suggestions can be automatically applied to your code via Quick Fixes.</li>
-<li>EclipseFP can run unit tests created with <a href="http://batterseapower.github.com/test-framework/">Test-framework</a>. You can install it running
+<li>EclipseFP's preferred test framework is <a href="http://hackage.haskell.org/package/HTF">HTF</a>. EclipseFP provides wizards to create HTF test-suites and module, and the test runner UI integrates nicely with HTF. You can install it by running <code>cabal install HTF</code> in a console. 
+<li>EclipseFP can also run unit tests created with <a href="http://batterseapower.github.com/test-framework/">Test-framework</a>. You can install it running
 <code>cabal install test-framework test-framework-quickcheck2 test-framework-hunit</code> (to be able to use QuickCheck and HUnit tests).</li>
 <li>The modules analysis is done using <a href="http://hackage.haskell.org/package/SourceGraph">SourceGraph</a>. Get it executing <code>cabal install SourceGraph</code>. Note that you'll need to have dot installed for the graphs to be generated. You can download dot from <a href="http://graphviz.org/">http://graphviz.org/</a>.</li>
 <li>EclipseFP includes support for <a href="http://www.haskell.org/alex/">Alex</a>, <a href="http://www.haskell.org/happy/">Happy</a> and <a href="http://www.cs.uu.nl/wiki/HUT/AttributeGrammarSystem">UUAGC</a>. To be able to build your files and get error and warnings shown, you need to install the corresponding packages doing <code>cabal install alex</code>, <code>cabal install happy</code> and <code>cabal install uuagc</code>.</li>
@@ -77,6 +78,6 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 <p>For some features, you need to install extra Eclipse plug-ins. EclipseFP can run without them, and will warn you if they are needed. Those plug-ins are:
 <ul>
 <li><i>BIRT Charting Engine</i>: needed to show profiling output. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/birt/update-site/3.7</code> as update site.</li>
-<li><i>Web Platform Tools</i>: needed to highlight and provide autocompletion for web-related files. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/webtools/repository/indigo/</code>as update site.</li>
+<li><i>Web Platform Tools</i>: needed to highlight and provide autocompletion for web-related files. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/webtools/repository/indigo/</code> (or <code>http://download.eclipse.org/webtools/repository/juno</code> if you're using Eclipse Juno) as the update site. You'll need the <i>JavaScript Development Tools</i> component.</li>
 </ul>
 </p>
