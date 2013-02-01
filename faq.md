@@ -56,6 +56,11 @@ This happens for example if you've updated cabal-install and not the Cabal libra
 </p>
 <br/>
 
+<p><b>Q:</b> <i>I get the following in the Eclipse UI: error message: &quot;mozilla_five_home not set&quot;</i></p>
+<p><b>A:</b> You may need to install the webkit library (libwebkit-gtk). See also several FAQs on the <a href="http://www.eclipse.org/swt/faq.php#browserlinuxrcp">SWT FAQ</a>.
+</p>
+<br/>
+
 <p><b>Q:</b> <i>When <code>scion-browser</code> is building, I get an error like <code>Loading package double-conversion-0.2.0.0 ... can't load .so/.DLL for: stdc++ (libstdc++.so: cannot open shared object file: No such file or directory)</code>.</i></p>
 <p><b>A:</b> This is a bug in GHC as pointed <a href="http://hackage.haskell.org/trac/ghc/ticket/5289">here</a>. If you are using a Linux distribution, the recommended way to cicumvent the problem is running on a terminal:
 <p><code>sudo ln -vs $(gcc --print-file-name=libstdc++.so) /usr/local/lib/<br />
