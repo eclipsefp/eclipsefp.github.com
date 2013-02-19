@@ -78,6 +78,6 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 <p>For some features, you need to install extra Eclipse plug-ins. EclipseFP can run without them, and will warn you if they are needed. Those plug-ins are:
 <ul>
 <li><i>BIRT Charting Engine</i>: needed to show profiling output. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/birt/update-site/3.7</code> as update site.</li>
-<li><i>Web Platform Tools</i>: needed to highlight and provide autocompletion for web-related files. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/webtools/repository/indigo/</code> (or <code>http://download.eclipse.org/webtools/repository/juno</code> if you're using Eclipse Juno) as the update site. You'll need the <i>JavaScript Development Tools</i> component.</li>
+<li><i>Web Platform Tools</i>: needed to highlight and provide autocompletion for web-related files. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/webtools/repository/indigo/</code> (or <code>http://download.eclipse.org/webtools/repository/juno</code> if you're using Eclipse Juno) as the update site. You'll need the <i>Eclipse Web Developer Tools</i>, <i>Eclipse XML Editors and Tools</i>, <i>JavaScript Development Tools</i>, <i>Web Page Editor</i> components, depending on which languages you use.</li>
 </ul>
 </p>
