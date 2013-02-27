@@ -41,7 +41,7 @@ but the <b>mailing list</b> is hosted in the <a href="http://sourceforge.net/mai
 <p>As usual, this assumes that you have GHC, cabal-install, and <a href="http://www.git-scm.org/">Git</a>. This should work on all platforms.</p>
 <ol>
 <li>Get <a href="http://www.eclipse.org/downloads/">Eclipse</a>, the distribution named <i>Eclipse Classic</i>. Extraction equals installation.</li>
-<li>You need to install the <a href="http://download.eclipse.org/birt/">BIRT Charting Engine</a> to be able to build EclipseFP. The update site is <code>http://download.eclipse.org/birt/update-site/3.7</code> for Eclipse 3.7 (Indigo).</li>
+<li>You need to install the <a href="http://download.eclipse.org/birt/">BIRT Charting Engine</a> to be able to build EclipseFP. The update site is <code>http://download.eclipse.org/birt/update-site/3.7</code> for Eclipse 3.7 (Indigo). For Eclipse 4.2, install the BIRT Engine OSGi Runtime SDK Feature from <i>http://download.eclipse.org/birt/update-site/4.2</i>.</li>
 <li>Get the BuildWrapper source: <code>git clone git://github.com/JPMoresmau/BuildWrapper.git</code><br />
 </li>
 <li>Build and install BuildWrapper, (it will install both the library as well as the exectuable program):<br />
