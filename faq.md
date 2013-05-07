@@ -52,7 +52,17 @@ Think of it this way: an IDE needs metadata about the project. In Eclipse, in a 
 
 <p><b>Q:</b> <i>In my buildwrapper console, I see errors like: buildwrapper: user error (You need to re-run the 'configure' command. The version of Cabal being used has changed (was Cabal-1.16.0.3, now Cabal-1.14.0).)</i></p>
 <p><b>A:</b> Buildwrapper both uses the cabal executable to run cabal configure and cabal build, and the Cabal library to read the cabal information and performs other operations. So the two need to be in synch, and this message appear if they aren't. Usually rebuilding buildwrapper fixes the issue.<br/>
-This happens for example if you've updated cabal-install and not the Cabal library.
+This happens for example if you've updated cabal-install and not the Cabal library.<br/>
+If a simple reinstall does not fix the issue, you need to check more things. The important thing to understand is that we have a four way relationship between:
+<ul>
+<li>Buildwrapper</li>
+<li>The GHC API (ghc package)</li>
+<li>The Cabal API (Cabal package)</li>
+<li>The cabal executable (cabal-install package)</li>
+</ul>
+Buildwrapper depends on both the GHC API and the Cabal API, and then calls cabal-install too. Usually the GHC API has a dependency on the Cabal API too, so if you install a new version of both the Cabal library and the cabal-install tool, Buildwrapper may not use them because the dependency on GHC will force it to use the older Cabal library!
+<br/>
+In this instances, dropping to a shell and using cabal with the verbose flag usually helps. The key message here is "don't panic". You may need to go back to the older instance of cabal (the one GHC uses) or reinstall GHC itself. That's why, staying on the version of Cabal delivered with the Haskell Platform you installed is strongly recommended.
 </p>
 <br/>
 
