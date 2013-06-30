@@ -22,7 +22,7 @@ title: EclipseFP > Installation
 If are already proficient with Eclipse plug-ins installation, all you need to know is that the Java Development Tools are required and the EclipseFP
 update site is located in ``http://eclipsefp.sf.net/updates`` and then follow the <a href="#extra">extra configuration steps</a>. If you don't know what
 "update site" means, don't worry, just follow the steps right below this text.
-The current version of EclipseFP is 2.5.2. EclipseFP requires Eclipse 3.7 or above.
+The current version of EclipseFP is 2.5.3. EclipseFP requires Eclipse 3.7 or above.
 
 ## Getting Eclipse up and running
 
