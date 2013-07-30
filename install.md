@@ -22,7 +22,7 @@ title: EclipseFP > Installation
 If are already proficient with Eclipse plug-ins installation, all you need to know is that the Java Development Tools are required and the EclipseFP
 update site is located in ``http://eclipsefp.sf.net/updates`` and then follow the <a href="#extra">extra configuration steps</a>. If you don't know what
 "update site" means, don't worry, just follow the steps right below this text.
-The current version of EclipseFP is 2.5.3. EclipseFP requires Eclipse 3.7 or above.
+The current version of EclipseFP is 2.5.4. EclipseFP requires Eclipse 3.7 or above.
 
 ## Getting Eclipse up and running
 
@@ -77,7 +77,7 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 
 <p>For some features, you need to install extra Eclipse plug-ins. EclipseFP can run without them, and will warn you if they are needed. Those plug-ins are:
 <ul>
-<li><i>BIRT Charting Engine</i>: needed to show profiling output. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/birt/update-site/3.7</code> as update site.</li>
+<li><i>BIRT Charting Engine</i>: needed to show profiling output. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/birt/update-site/3.7</code> as update site for Eclipse 3.7/3.8 and <code>http://download.eclipse.org/birt/update-site/4.3</code> for Eclipse 4.3.</li>
 <li><i>Web Platform Tools</i>: needed to highlight and provide autocompletion for web-related files. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/webtools/repository/indigo/</code> (or <code>http://download.eclipse.org/webtools/repository/juno</code> if you're using Eclipse Juno) as the update site. You'll need the <i>Eclipse Web Developer Tools</i>, <i>Eclipse XML Editors and Tools</i>, <i>JavaScript Development Tools</i>, <i>Web Page Editor</i> components, depending on which languages you use.</li>
 </ul>
 </p>
