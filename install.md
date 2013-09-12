@@ -19,7 +19,7 @@ title: EclipseFP > Installation
 <br />
 <!-- Until here the list -->
 
-If are already proficient with Eclipse plug-ins installation, all you need to know is that the Java Development Tools are required and the EclipseFP
+If you are already proficient in installing Eclipse plug-ins, all you need to know is that the Java Development Tools are required and the EclipseFP
 update site is located in ``http://eclipsefp.sf.net/updates`` and then follow the <a href="#extra">extra configuration steps</a>. If you don't know what
 "update site" means, don't worry, just follow the steps right below this text.
 The current version of EclipseFP is 2.5.4. EclipseFP requires Eclipse 3.7 or above.
@@ -29,7 +29,7 @@ The current version of EclipseFP is 2.5.4. EclipseFP requires Eclipse 3.7 or abo
 If it's the first time that you use Eclipse or install plug-ins, follow this set of instructions:
 <ul>
 <li>You'll need of course a Java Runtime Environment (JRE), version 6 or above. If you need to download it, go to <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">this page</a>.</li>
-<li>Go to the <a href="http://eclipse.org/downloads/">Eclipse download page</a> and get any of the Eclipse bundles. With each of them you will get a different initial set of language support, but EclipseFP is compatible only with those with Java support (Eclipse for Java developers, Eclipse for Java EE developers or Eclipse Classic). I recommend you reading some <a href="http://www.eclipse.org/resources/?sort=date&amp;category=Tutorial">Eclipse tutorial</a> and learning about other plug-ins such as <a href="http://eclipse.org/egit/">EGit</a> and <a href="http://www.eclipse.org/mylyn/">Mylyn</a>.</li>
+<li>Go to the <a href="http://eclipse.org/downloads/">Eclipse download page</a> and get any of the Eclipse bundles. With each of them you will get a different initial set of language support, but EclipseFP is compatible only with those with Java support (Eclipse for Java developers, Eclipse for Java EE developers or Eclipse Classic). I recommend going through some <a href="http://www.eclipse.org/resources/?sort=date&amp;category=Tutorial">Eclipse tutorials</a> and learning about other plug-ins such as <a href="http://eclipse.org/egit/">EGit</a> and <a href="http://www.eclipse.org/mylyn/">Mylyn</a>.</li>
 <li>Uncompress the archive you just downloaded. A <code>eclipse</code> folder will be created.</li>
 <li>Inside this folder, you will find an executable called <code>eclipse</code>. Double-click it to start the Eclipse environment (yes, "installing Eclipse" means uncompressing it somewhere, even on a portable drive).</li>
 <li>The first time you execute Eclipse, you will be asked about a workspace. A <i>workspace</i> is just the folder where your preferences and configurations are stored (you can have different sets of preferences using different workspaces), and where your projects will be created by default. For trying, you can just use the default choice (usually <code>&lt;your user folder&gt;/workspace</code>).</li>
@@ -55,9 +55,9 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 
 <p>If you have GHC installed and in your path (for example, by installing the <a href="http://hackage.haskell.org/platform/">Haskell Platform</a> or the corresponding package in your Linux distribution), the first time you start EclipseFP you will be prompted to install BuildWrapper and Scion-browser. Just click install to have them downloaded from Hackage and installed.</p>
 
-<p>After that, other message will appear, telling you that EclipseFP is <i>Rebuilding the package database</i>. That operation will be done every time you start EclipseFP. This rebuilding gathers information about changes in your set of installed packages and downloads the corresponding documentation from the internet (or if no internet is present, tries to build it locally). Of course, the first time this is done a lot of information must be downloaded and process, so it will take its time.</p>
+<p>After that, other message will appear, telling you that EclipseFP is <i>Rebuilding the package database</i>. That operation will be done every time you start EclipseFP. This rebuilding gathers information about changes in your set of installed packages and downloads the corresponding documentation from the internet (or if no internet is present, tries to build it locally). Of course, the first time this is done a lot of information must be downloaded and processed, so it will take some time.</p>
 
-<p>When no message telling about jobs is on your screen, you can start playing with your new shiny EclipseFP :) If more some reason you get an error, check the <a href="faq.html">FAQ</a> or ask in the <a href="dev.html">mailing list</a>.</p>
+<p>When no message telling about jobs is on your screen, you can start playing with your new shiny EclipseFP :) If for some reason you get an error, check the <a href="faq.html">FAQ</a> or ask in the <a href="dev.html">mailing list</a>.</p>
 
 <p>For some of the features to be available you need to install several additional Haskell programs. The instructions below give you the cabal command to run, but you can also install helper executables from inside EclipseFP (<b>Preferences -> Haskell -> Helper Executables</b> or via the <b>Cabal Packages View</b>). To be more concrete:
 <ul>
