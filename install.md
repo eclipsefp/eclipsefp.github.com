@@ -15,17 +15,18 @@ title: EclipseFP > Installation
   </tr>
 </table>
 </center>
-<hr />
-<br />
+<hr/>
+<br/>
 <!-- Until here the list -->
 
 If you are already proficient in installing Eclipse plug-ins, all you need to know is that the Java Development Tools are required and the EclipseFP
 update site is located in ``http://eclipsefp.sf.net/updates`` and then follow the <a href="#extra">extra configuration steps</a>. If you don't know what "update site" means, don't worry, just follow the steps right below this text.
-The current version of EclipseFP is 2.5.6.EclipseFP requires Eclipse 3.7 or above.
+The current version of EclipseFP is 2.5.6. EclipseFP requires Eclipse 3.7 or above.
 
 ## Getting Eclipse up and running
 
 If it's the first time that you use Eclipse or install plug-ins, follow this set of instructions:
+
 <ul>
 <li>You'll need of course a Java Runtime Environment (JRE), version 6 or above. If you need to download it, go to <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">this page</a>.</li>
 <li>Go to the <a href="http://eclipse.org/downloads/">Eclipse download page</a> and get any of the Eclipse bundles. With each of them you will get a different initial set of language support. I recommend going through some <a href="http://www.eclipse.org/resources/?sort=date&amp;category=Tutorial">Eclipse tutorials</a> and learning about other plug-ins such as <a href="http://eclipse.org/egit/">EGit</a> and <a href="http://www.eclipse.org/mylyn/">Mylyn</a>.</li>
@@ -35,12 +36,12 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 <li>Now, let's install EclipseFP. First, on the menu, go to <b>Help &gt; Install New Software...</b>.</li>
 <li>In the <i>Available software</i> window that will appear, click the <b>Add...</b> button.</li>
 <li>You will be asked about the details of the update site you want to add. An <i>update site</i> is just a place on the internet where your Eclipse installation can find new plug-ins to install. If you use Linux, the concept is very similar to a repository. The name is not important, but the URL must point to <code>http://eclipsefp.sf.net/updates</code>.
-<br />
+<br/>
 <center><img src="images/update-site.png" style="margin: 10px;" /></center>
 </li>
 <li>The <i>Available software</i> window will show the plug-ins in the EclipseFP repository. Check <b>FP: Haskell support for Eclipse</b> and click <b>Next</b>.</li>
 <li>After clicking <b>Next</b> a few more times (for accepting the licenses), the plug-in will be downloaded and installed.
-<br />
+<br/>
 <center><img src="images/install.png" style="margin: 10px;" /></center>
 </li>
 <li>You will be asked for an Eclipse restart. After doing it, you can start using EclipseFP by going to <b>Window &gt; Open perspective &gt; Other...</b> and selecting <i>Haskell</i>.</li>
