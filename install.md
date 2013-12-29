@@ -20,20 +20,20 @@ title: EclipseFP > Installation
 <!-- Until here the list -->
 
 If you are already proficient in installing Eclipse plug-ins, all you need to know is that the Java Development Tools are required and the EclipseFP
-update site is located in ``http://eclipsefp.sf.net/updates`` and then follow the <a href="#extra">extra configuration steps</a>. If you don't know what "update site" means, don't worry, just follow the steps right below this text.
-The current version of EclipseFP is 2.5.6. EclipseFP requires Eclipse 3.7 or above.
+update site is located in ``http://eclipsefp.sf.net/updates`` and then follow the <a href="#extra">extra configuration steps</a>. If you don&apos;t know what &quot;update site&quot; means, don&apos;t worry, just follow the steps right below this text.
+The current version of EclipseFP is 2.5.6.EclipseFP requires Eclipse 3.7 or above.
 
 ## Getting Eclipse up and running
 
-If it's the first time that you use Eclipse or install plug-ins, follow this set of instructions:
+If it&apos;s the first time that you use Eclipse or install plug-ins, follow this set of instructions:
 
 <ul>
-<li>You'll need of course a Java Runtime Environment (JRE), version 6 or above. If you need to download it, go to <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">this page</a>.</li>
+<li>You&apos;ll need of course a Java Runtime Environment (JRE), version 6 or above. If you need to download it, go to <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">this page</a>.</li>
 <li>Go to the <a href="http://eclipse.org/downloads/">Eclipse download page</a> and get any of the Eclipse bundles. With each of them you will get a different initial set of language support. I recommend going through some <a href="http://www.eclipse.org/resources/?sort=date&amp;category=Tutorial">Eclipse tutorials</a> and learning about other plug-ins such as <a href="http://eclipse.org/egit/">EGit</a> and <a href="http://www.eclipse.org/mylyn/">Mylyn</a>.</li>
 <li>Uncompress the archive you just downloaded. A <code>eclipse</code> folder will be created.</li>
 <li>Inside this folder, you will find an executable called <code>eclipse</code>. Double-click it to start the Eclipse environment (yes, "installing Eclipse" means uncompressing it somewhere, even on a portable drive).</li>
 <li>The first time you execute Eclipse, you will be asked about a workspace. A <i>workspace</i> is just the folder where your preferences and configurations are stored (you can have different sets of preferences using different workspaces), and where your projects will be created by default. For trying, you can just use the default choice (usually <code>&lt;your user folder&gt;/workspace</code>).</li>
-<li>Now, let's install EclipseFP. First, on the menu, go to <b>Help &gt; Install New Software...</b>.</li>
+<li>Now, let&apos;s install EclipseFP. First, on the menu, go to <b>Help &gt; Install New Software...</b>.</li>
 <li>In the <i>Available software</i> window that will appear, click the <b>Add...</b> button.</li>
 <li>You will be asked about the details of the update site you want to add. An <i>update site</i> is just a place on the internet where your Eclipse installation can find new plug-ins to install. If you use Linux, the concept is very similar to a repository. The name is not important, but the URL must point to <code>http://eclipsefp.sf.net/updates</code>.
 <br/>
@@ -64,10 +64,10 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 <li>You need to install <a href="http://www.haskell.org/hoogle/">Hoogle</a>, to search functions or types in your installed packages. To get it, run <code>cabal install hoogle</code> in a console. The next time EclipseFP starts, it will detect and configure it for use. On Windows, you may need to install some other binaries for hoogle to work: <a href="http://gnuwin32.sourceforge.net/packages/wget.htm">wget</a>, <a href="http://gnuwin32.sourceforge.net/packages/gzip.htm">gzip</a> and <a href="http://gnuwin32.sourceforge.net/packages/gtar.htm">tar</a>.</li>
 <li>If you want <a href="http://community.haskell.org/~ndm/hlint/">HLint</a> to give suggestions for improving your code, install it running 
 <code>cabal install hlint</code>. Most HLint suggestions can be automatically applied to your code via Quick Fixes.</li>
-<li>EclipseFP's preferred test framework is <a href="http://hackage.haskell.org/package/HTF">HTF</a>. EclipseFP provides wizards to create HTF test-suites and module, and the test runner UI integrates nicely with HTF. You can install it by running <code>cabal install HTF</code> in a console.</li>
+<li>EclipseFP&apos;s preferred test framework is <a href="http://hackage.haskell.org/package/HTF">HTF</a>. EclipseFP provides wizards to create HTF test-suites and module, and the test runner UI integrates nicely with HTF. You can install it by running <code>cabal install HTF</code> in a console.</li>
 <li>EclipseFP can also run unit tests created with <a href="http://batterseapower.github.com/test-framework/">Test-framework</a>. You can install it running
 <code>cabal install test-framework test-framework-quickcheck2 test-framework-hunit</code> (to be able to use QuickCheck and HUnit tests).</li>
-<li>The modules analysis is done using <a href="http://hackage.haskell.org/package/SourceGraph">SourceGraph</a>. Get it executing <code>cabal install SourceGraph</code>. Note that you'll need to have dot installed for the graphs to be generated. You can download dot from <a href="http://graphviz.org/">http://graphviz.org/</a>.</li>
+<li>The modules analysis is done using <a href="http://hackage.haskell.org/package/SourceGraph">SourceGraph</a>. Get it executing <code>cabal install SourceGraph</code>. Note that you&apos;ll need to have dot installed for the graphs to be generated. You can download dot from <a href="http://graphviz.org/">http://graphviz.org/</a>.</li>
 <li>EclipseFP includes support for <a href="http://www.haskell.org/alex/">Alex</a>, <a href="http://www.haskell.org/happy/">Happy</a> and <a href="http://www.cs.uu.nl/wiki/HUT/AttributeGrammarSystem">UUAGC</a>. To be able to build your files and get error and warnings shown, you need to install the corresponding packages doing <code>cabal install alex</code>, <code>cabal install happy</code> and <code>cabal install uuagc</code>.</li>
 <li>Projects using <a href="http://snapframework.com/">Snap</a> or <a href="http://www.yesodweb.com/">Yesod</a> web frameworks can be created automatically, but only if those packages are installed. To get them, follow the instructions in their official sites.</li>
 </ul>
@@ -78,6 +78,6 @@ If it's the first time that you use Eclipse or install plug-ins, follow this set
 <p>For some features, you need to install extra Eclipse plug-ins. EclipseFP can run without them, and will warn you if they are needed. Those plug-ins are:
 <ul>
 <li><i>BIRT Charting Engine</i>: needed to show profiling output. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/birt/update-site/3.7</code> as update site for Eclipse 3.x and <code>http://download.eclipse.org/birt/update-site/4.3</code> for Eclipse 4.3.</li>
-<li><i>Web Platform Tools</i>: needed to highlight and provide autocompletion for web-related files. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/webtools/repository/indigo/</code> (or <code>http://download.eclipse.org/webtools/repository/juno</code> if you're using Eclipse Juno) as the update site. You'll need the <i>Eclipse Web Developer Tools</i>, <i>Eclipse XML Editors and Tools</i>, <i>JavaScript Development Tools</i>, <i>Web Page Editor</i> components, depending on which languages you use.</li>
+<li><i>Web Platform Tools</i>: needed to highlight and provide autocompletion for web-related files. To install it, follow the same steps of the main installation, but use <code>http://download.eclipse.org/webtools/repository/indigo/</code> (or <code>http://download.eclipse.org/webtools/repository/juno</code> if you&apos;re using Eclipse Juno) as the update site. You&apos;ll need the <i>Eclipse Web Developer Tools</i>, <i>Eclipse XML Editors and Tools</i>, <i>JavaScript Development Tools</i>, <i>Web Page Editor</i> components, depending on which languages you use.</li>
 </ul>
 </p>
