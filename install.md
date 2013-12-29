@@ -26,6 +26,7 @@ The current version of EclipseFP is 2.5.6.EclipseFP requires Eclipse 3.7 or abov
 ## Getting Eclipse up and running
 
 If it's the first time that you use Eclipse or install plug-ins, follow this set of instructions:
+
 <ul>
 <li>You'll need of course a Java Runtime Environment (JRE), version 6 or above. If you need to download it, go to <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">this page</a>.</li>
 <li>Go to the <a href="http://eclipse.org/downloads/">Eclipse download page</a> and get any of the Eclipse bundles. With each of them you will get a different initial set of language support. I recommend going through some <a href="http://www.eclipse.org/resources/?sort=date&amp;category=Tutorial">Eclipse tutorials</a> and learning about other plug-ins such as <a href="http://eclipse.org/egit/">EGit</a> and <a href="http://www.eclipse.org/mylyn/">Mylyn</a>.</li>
