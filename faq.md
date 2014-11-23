@@ -124,6 +124,11 @@ An explanation can be found <a href="http://lists.fedoraproject.org/pipermail/de
 
 <br />
 
+p><b>Q:</b> <i>I have issues with Hoogle, on Windows</i></p>
+<p><b>A:</b> Hoogle requires a few tools to operate, which are not present on a default Windows install. The blog post at <a href="http://jpmoresmau.blogspot.fr/2011/08/hoogle-command-line-on-windows.html">http://jpmoresmau.blogspot.fr/2011/08/hoogle-command-line-on-windows.html</a> has the list of tools you need to have installed and present in your path.</p>
+
+<br />
+
 <p><b>Q:</b> <i>I still have an issue that I can't solve, what do I do?</i></p>
 <p><b>A:</b> Search the <a href="http://sourceforge.net/projects/eclipsefp/forums/forum/371922">SourceForge forum</a>, and if you find nothing, post your question!</p>
 
